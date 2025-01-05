@@ -1,0 +1,37 @@
+body {
+    background: url(https://wallpapers.com/images/hd/red-black-background-7zk6601a0xe3fqxm.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkred
+}
+
+a {
+    display:inline-table;
+    margin: 10x 0; /* Add vertical spacing between links */
+    padding: 10px 15px; /* Add padding for a button-like appearance */
+    text-align: center; 
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px; /* Rounded corners for links */
+    transition: all 0.3s ease; /*Smooth transition for hover effects */
+}
+
+a:link {
+    color:chartreuse;
+    background-color: darkolivegreen; /*Dark Olive Green for default state */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:visited {
+    color:red; /*Red for visited links */
+    background-color:black; /* Black */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    color:blue;
+    background-color: blueviolet; /* Blue Violet for hover state */
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

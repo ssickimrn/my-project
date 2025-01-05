@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Current Time</title>
+        <link rel="stylesheet" href="clock.css"
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 id="current-time">12:00:00</h1>
+            <div class="quotes">
+                <p>TODAY'S QUOTES</p>
+                <h2>Time Is Gold</h2>
+        </div>
+
+        <script>
+            let time=document.getElementById("current-time");
+
+            setInterval(() =>{
+                let d=new Date();
+                time.innerHTML=d.toLocaleTimeString();
+            },1000)
+        </script>
+    </body>
+</html>
